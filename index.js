@@ -22,4 +22,4 @@ async function f() {
   console.log(total);
 }
 
-document.addEventListener("DOMContentLoaded", f);
+$("btn").addEventListener("click", f);
